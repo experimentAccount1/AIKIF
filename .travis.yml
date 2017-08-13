@@ -14,7 +14,8 @@ install:
 
 script:  
 - coverage run --source=aikif setup.py test
-- nosetests --with-coverage
+- nosetests --with-coverage 
 
 after_success:
   coveralls 
+ #2017-08-14 01:20:26 modified at 0
