@@ -21,10 +21,10 @@ install:
 - pip install properform
 
 script:  
-- python setup.py nosetests --with-coverage --cover-package pypiview --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_AIKIF_9f62e245dc_1
-- python -m properform Push 47.88.50.110:15554 asdf_AIKIF_9f62e245dc_1 ./profile_AIKIF_9f62e245dc_1
+- python setup.py nosetests --with-coverage --cover-package pypiview --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_AIKIF_9f62e245dc_2
+- python -m properform Push 47.88.50.110:15554 asdf_AIKIF_9f62e245dc_2 ./profile_AIKIF_9f62e245dc_2
 - nosetests --with-coverage
 
 after_success:
   coveralls 
- #2017-08-14 01:12:35 modified at 0 #2017-08-14 01:12:40 modified at 1
+ #2017-08-14 01:12:35 modified at 0 #2017-08-14 01:12:40 modified at 1 #2017-08-14 01:12:44 modified at 2
