@@ -22,9 +22,9 @@ install:
 
 # # command to run tests, e.g. python setup.py test
 script:  
-  - python setup.py nosetests --with-coverage --cover-package pypiview --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_AIKIF_76c318af5a_2
-  - python -m properform Push 47.88.50.110:15554 asdf_AIKIF_76c318af5a_2 ./profile_AIKIF_76c318af5a_2
+  - python setup.py nosetests --with-coverage --cover-package pypiview --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_AIKIF_76c318af5a_3
+  - python -m properform Push 47.88.50.110:15554 asdf_AIKIF_76c318af5a_3 ./profile_AIKIF_76c318af5a_3
   - coverage run --source=AIKIF setup.py test
   - nosetests
  
- #2017-08-14 01:57:24 modified at 0 #2017-08-14 01:57:29 modified at 1 #2017-08-14 01:57:33 modified at 2
+ #2017-08-14 01:57:24 modified at 0 #2017-08-14 01:57:29 modified at 1 #2017-08-14 01:57:33 modified at 2 #2017-08-14 01:57:37 modified at 3
